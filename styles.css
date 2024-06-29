@@ -1,0 +1,27 @@
+body{
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+}
+
+.foto{
+    max-width: 250px;
+    max-height: 500px;
+    transform: translatey(0px);
+    animation: flutuar 5s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+    0% {
+        transform: translatey(0px);
+    }
+
+    50% {
+        transform: translatey(-15px);
+    }
+
+    100% {
+        transform: translatey(0px);
+    }
+    
+}
